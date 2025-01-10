@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94690ce5-9015-40cf-a00e-f8118b758176" name="Changes" comment="A simple graphical To-Do list application built using Python’s tkinter library. This app allows users to manage tasks, mark them as completed, and save completed tasks to a file.">
+      <change afterPath="$PROJECT_DIR$/GPA calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,22 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Fun.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ToDoList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ToDoList_tkinter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tkinter.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Fun.executor": "Run",
+    "Python.GPA calculator.executor": "Run",
+    "Python.ToDoList.executor": "Run",
+    "Python.ToDoList_tkinter.executor": "Run",
+    "Python.tkinter.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735938140232</updated>
       <workItem from="1735938142993" duration="8492000" />
-      <workItem from="1735999319178" duration="9530000" />
+      <workItem from="1735999319178" duration="21835000" />
     </task>
     <task id="LOCAL-00001" summary="A simple graphical To-Do list application built using Python’s tkinter library. This app allows users to manage tasks, mark them as completed, and save completed tasks to a file.">
       <option name="closed" value="true" />
@@ -90,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736006507101</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="A simple graphical To-Do list application built using Python’s tkinter library. This app allows users to manage tasks, mark them as completed, and save completed tasks to a file.">
+      <option name="closed" value="true" />
+      <created>1736183081100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736183081100</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +118,11 @@
           <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GPA calculator.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -122,6 +137,7 @@
     <SUITE FILE_PATH="coverage/2025$tkinter.coverage" NAME="tkinter Coverage Results" MODIFIED="1735954718848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ToDoList_w" />
     <SUITE FILE_PATH="coverage/2025$ToDoList_tkinter.coverage" NAME="ToDoList_tkinter Coverage Results" MODIFIED="1736004890883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2025$ToDoList.coverage" NAME="ToDoList Coverage Results" MODIFIED="1735954468828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2025$GPA_calculator.coverage" NAME="GPA calculator Coverage Results" MODIFIED="1736345845160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2025$Fun.coverage" NAME="Fun Coverage Results" MODIFIED="1735943417111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
