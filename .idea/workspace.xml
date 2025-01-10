@@ -28,7 +28,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/SebastianMoMa/ToDoList.git",
+    "url": "https://github.com/SebastianMoseres/TOdoList.git",
     "accountId": "8915aca5-e59e-4edf-8c7c-5a58cde3a674"
   }
 }]]></component>
@@ -75,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735938140232</updated>
       <workItem from="1735938142993" duration="8492000" />
-      <workItem from="1735999319178" duration="22995000" />
+      <workItem from="1735999319178" duration="23308000" />
     </task>
     <task id="LOCAL-00001" summary="A simple graphical To-Do list application built using Python’s tkinter library. This app allows users to manage tasks, mark them as completed, and save completed tasks to a file.">
       <option name="closed" value="true" />
@@ -125,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736469105740</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="A simple graphical To-Do list application built using Python’s tkinter library. This app allows users to manage tasks, mark them as completed, and save completed tasks to a file.">
+      <option name="closed" value="true" />
+      <created>1736469392814</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736469392814</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
