@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Visualizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .upload-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .upload-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        input[type="file"], input[type="number"] {
+            padding: 10px;
+            border: 2px dashed #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .note {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="upload-container">
+        <h1>Music Visualizer</h1>
+        <form class="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+    <label for="file">Upload MP3 File:</label>
+    <input type="file" id="file" name="file" accept=".mp3" required>
+
+    <label for="start_time">Start Time (seconds):</label>
+    <input type="number" id="start_time" name="start_time" placeholder="Start Time (seconds)" min="0" step="1" value="0">
+
+    <label for="end_time">End Time (seconds, 0 for full length):</label>
+    <input type="number" id="end_time" name="end_time" placeholder="End Time (seconds, 0 for full length)" min="0" step="1" value="0">
+
+    <label for="fps">Frames Per Second (FPS):</label>
+    <input type="number" id="fps" name="fps" placeholder="FPS (e.g., 30)" min="1" max="60" value="30">
+
+    <button type="submit">Upload & Process MP3</button>
+</form>
+        <p class="note">
+            Note: Processing may take a few minutes depending on the file size.
+            Please be patient after clicking submit.
+        </p>
+    </div>
+</body>
+</html>
