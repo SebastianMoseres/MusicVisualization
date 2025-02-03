@@ -1,4 +1,4 @@
-# Music Visualizer Application
+# Music Visualizer Application (Winner of Best Art Project at McGill AI Society Winter 2025 Hackathon)
 
 This application is a Flask-based web service that generates dynamic music visualizations from uploaded audio files. It analyzes the audio, extracts key features, detects the mood of the song, and creates a video with a dynamic visual representation.
 
